@@ -48,14 +48,28 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-	<header>
-		<nav>
-			<a href="/">
+<body id="top">
+	<header class="header">
+		
+			<a href="#" class="Logo">
 				<img src="img/logo.png" alt="Logo" class="logo">
 			</a>
+			<nav id="nav-menu">
+				
+				<a class="nav-link home" href="#home">home</a>
+				<a class="nav-link about" href="#about">About</a>
+				<a class="nav-link projects" href="#projects">Projects</a>
+				<a class="nav-link contact" href="#contact">Contact</a>
+				<li class="nav-link resume">
+					<a href="https://drive.google.com/drive/folders/1t58j0rDGz38tB-TYooWYN79laSym_kyx?usp=share_link"
+						target="_blank">Résumé</a>
+				</li>
 
-			<ul class="nav-menu">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+
+			<!-- <ul class="nav-menu">
 				<li class="nav-link">
 					<a href="#about">About</a>
 				</li>
@@ -81,7 +95,7 @@
 
 					
 				</li>
-			</ul>
+			</ul> -->
 
 			<button class="hamburger" type="button" name="menu button">
 				<div class="menu-bar">
@@ -92,8 +106,19 @@
 	</header>
 
 	<main>
-		<section>
-			<span class="salutation">Hi there!</span>
+		<section class="home" id="home">
+			<div class="home-content">
+				<h2>Hello, I am Prashant</h2>
+				<h1 id="user-detail-name">Prashant Kad</h1>
+				<h2>and i am a <br><span class="multiple-text"></span></h2>
+
+				<div class="social-media">
+					<a href=""></a>
+
+				</div>
+
+			</div>
+			<!-- <span class="salutation">Hi there!</span>
 			<h1>
 				I am <span class="name-highlight">Prashant Kad</span>.
 			</h1>
@@ -109,7 +134,7 @@
 				<a href="#contact" class="cta cta1">Reach out</a>
 				<a href="https://drive.google.com/file/d/1THpNJsCXtJKWxpG_PfYCPAfeK4f-zb8b/view?usp=share_link"
 					target="_blank" class="cta cta2">Résumé</a>
-			</div>
+			</div> -->
 		</section>
 
 		<aside class="main-social-links social-links">
