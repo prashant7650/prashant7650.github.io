@@ -1,0 +1,38 @@
+#skills h2 {
+    margin-bottom: 5rem;
+  }
+  .skills-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .skills-container .skills-card-1 {
+    flex: 1 1 30rem;
+    background: var(--bg-oxford-blue);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--border-prussian-blue);
+    transition: .5s ease;
+  }
+  .skills-container .skills-card-1:hover {
+    border-color: var(--bg-carolina-blue);
+    transform: scale(1.02);
+  } 
+  .skills-card-1 i {
+    font-size: 7rem;
+    color: var(--bg-carolina-blue);
+  }
+  .skills-card-1 h3 {
+    font-size: 2.6rem;
+  
+  }
+  .skills-card-1 p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+  }
+   
