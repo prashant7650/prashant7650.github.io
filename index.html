@@ -349,6 +349,25 @@
 
           
         </div>
+        <div id="calendar_harsh">
+          <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+          <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+          <div class="calendar react-activity-calenda" id="calendar">
+            Loading the data just for you.
+          </div>
+
+          <script>
+            GitHubCalendar(".calendar", "prashant7650");
+            
+
+            GitHubCalendar(".calendar", "prashant7650", {
+              responsive: true,
+              global_stats: false,
+              tooltips: true,
+            });
+          </script>
+        </div>
 
 
       
