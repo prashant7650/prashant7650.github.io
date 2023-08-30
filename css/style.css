@@ -1497,3 +1497,16 @@ form {
   }
 
 }
+.js-calendar-graph-svg {
+  padding: 40px;
+}
+
+.github .calendar {
+  width: 100%;
+  /* padding-top: 30px; */
+  border: none;
+}
+
+.github .calendar .contrib-number {
+  color: #9e999985;
+}
